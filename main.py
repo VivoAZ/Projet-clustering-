@@ -176,8 +176,8 @@ hierarchical_model, hierarchical_clusters = apply_hierarchical_clustering(featur
 visualize_clusters(features, hierarchical_clusters, title="Clusters Hiérarchiques (PCA)")
 
 # Évaluation des clusters
-silhouette_kmeans, davies_bouldin_kmeans = evaluate_clustering(features, kmeans_clusters)
-silhouette_hierarchical, davies_bouldin_hierarchical = evaluate_clustering(features, hierarchical_clusters)
+silhouette_kmeans = evaluate_clustering(features, kmeans_clusters)
+silhouette_hierarchical = evaluate_clustering(features, hierarchical_clusters)
 
-print(f"K-Means - Silhouette: {silhouette_kmeans}, Davies-Bouldin: {davies_bouldin_kmeans}")
-print(f"Clustering Hiérarchique - Silhouette: {silhouette_hierarchical}, Davies-Bouldin: {davies_bouldin_hierarchical}")
+print(f"K-Means - Silhouette: {silhouette_kmeans}") 
+print(f"Clustering Hiérarchique - Silhouette: {silhouette_hierarchical}") 
