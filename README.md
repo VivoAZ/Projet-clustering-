@@ -1,7 +1,7 @@
 # Prédiction du prix 
 
 ## Description 
-C'est un  projet de classification. Nous disposons d'une base de données issue d'une campagne marketing d'une entreprise qui vend plusieurs articles. L'objectif est de segmenter la clientèle en tenant compte du comportement des individus. 
+C'est un  projet de classification. Nous disposons d'une base de données issue d'une campagne marketing d'une entreprise qui dispose de plusieurs articles dans son magasin de vente. L'objectif est de segmenter la clientèle en tenant compte du comportement des individus. 
 
 ## Fonctionnalité principale 
 Regrouper les clients par catégorie afin de proposer des offres adaptées à chaque classe et optimiser le budget des campagnes.  
