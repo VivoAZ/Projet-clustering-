@@ -33,7 +33,7 @@ pip install -r requirements.txt
 Commande pour lancer le projet 
 python main.py 
 
-N'oubliez pas de vérifier le chemin d'accès des fichiers main.py et HousingData.csv selon où vous les avez sauvegardés sur votre machine. 
+N'oubliez pas de vérifier le chemin d'accès des fichiers main.py et marketing_campaign_clean.csv selon où vous les avez sauvegardés sur votre machine. 
 
 ## Structure du projet 
 
